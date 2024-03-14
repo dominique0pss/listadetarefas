@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif;
+    background-image: url(lista\ de\ tarefas2.png);
+}
+
+
+
+#taskInput{
+    width: 30%;
+    margin-bottom: 10px;
+    background-color: rgba(255, 0, 179, 0.301);
+    margin-left: 40em;
+    margin-top: 20em;
+    box-shadow: 0 0 25px white,
+                0 0 50px white,
+                0 0 100px white,
+                0 0 200px white,
+                0 0 20px white;
+    border: 2px;
+    
+}
+
+
+
+
+
+
+::placeholder{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 17px;
+}
+
+#taskList{
+    list-style-type: none;
+    padding: 0;
+}
+
+.taskItem{
+    margin-bottom: 5px;
+
+}
+
+.taskItem button{
+    margin-left: 5px;
+}
